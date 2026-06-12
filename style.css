@@ -430,12 +430,17 @@ button.vertargeta, button.compartircuenta, button.guardar, button.compartir, but
     .main-content{
 
         padding:10px;
+      width:100%;
     }
-
-    .card{
-
-        width:100%;
-    }
+.card{
+    width:100vw;
+    min-height:100vh;
+    border-radius:0;
+    border:none;
+}
+  .cover{
+    height:180px;
+  }
 
     .card-body{
 
