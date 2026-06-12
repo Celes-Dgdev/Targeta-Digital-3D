@@ -425,7 +425,7 @@ button.vertargeta, button.compartircuenta, button.guardar, button.compartir, but
 }
 /* 📱 Celulares */
 
-@media (max-width: 480px){
+@media (max-width: 760px){
 
     .main-content{
 
