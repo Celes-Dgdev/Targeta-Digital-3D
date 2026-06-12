@@ -59,7 +59,7 @@ document.querySelectorAll('.sidebar a').forEach(btn => {
       accionesBancos.style.display = "none";
     } else {
       document.getElementById(target).classList.add('active');
-
+      
       // 👇 AQUÍ CONTROLAMOS LOS BOTONES
       if(target === "bancos"){
         accionesBancos.style.display = "block"; // mostrar
@@ -80,6 +80,27 @@ document.getElementById("inviteBtn").addEventListener("click", () => {
   const mensaje = encodeURIComponent("Quiero que generes mi tarjeta digital");
   window.open(`https://wa.me/526648123071?text=${mensaje}`, "_blank");
 });
+// ver cuentas de banco
+
+   const btnCuentas =
+document.getElementById('btnCuentas');
+
+btnCuentas.addEventListener('click', () => {
+
+    document
+    .querySelectorAll('.section')
+    .forEach(sec =>
+        sec.classList.remove('active')
+    );
+
+    document
+    .getElementById('bancos')
+    .classList.add('active');
+
+    accionesBancos.style.display = "flex";
+
+});
+
 
 // Variables documentos
 const loginDocs = document.querySelector("#loginDocs");
