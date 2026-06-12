@@ -377,7 +377,7 @@ button.vertargeta, button.compartircuenta, button.guardar, button.compartir, but
 
     font-weight: bold;
 
-    animation: deslizar 10s linear infinite;
+    animation: deslizar 12s linear infinite;
      color:rgb(243, 231, 231); 
   margin-bottom:15px; 
 
@@ -516,4 +516,7 @@ button.vertargeta, button.compartircuenta, button.guardar, button.compartir, but
 
         padding-bottom:90px;
     }
+  .marquee{
+    margin-bottom:0;
+  }
 }
