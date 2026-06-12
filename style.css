@@ -481,7 +481,8 @@ button.vertargeta, button.compartircuenta, button.guardar, button.compartir, but
 
         position:fixed;
 
-        bottom:30px;
+        margin-bottom:60px;
+      
         left:0;
 
         width:100%;
